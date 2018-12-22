@@ -10,13 +10,13 @@ from controller.CBrowser import CBrowser
 
 
 class ImageViewer:
-    def __init__(self):
+    def __init__(self, basedir):
 
         self.X_INCREMENT = 200
         
         self.cursor_history = dict()
 
-        self.browser = Browser()
+        self.browser = Browser(basedir)
         self.cbrowser = CBrowser()
         self.clock = pygame.time.Clock()
         self.thezoom = 200

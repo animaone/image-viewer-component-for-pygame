@@ -1,3 +1,3 @@
 from view.ImageViewer import ImageViewer
 
-imgv = ImageViewer()
+imgv = ImageViewer("images/")

@@ -1,8 +1,8 @@
 import os
 
 class Browser:
-    def __init__(self):
-        self.imdir = "images/"
+    def __init__(self, basedir):
+        self.imdir = basedir
 
     def setDir(self, imdir):
         self.imdir = os.path.normpath(imdir)
