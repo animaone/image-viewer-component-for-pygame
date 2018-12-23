@@ -1,5 +1,6 @@
 Image Viewer Component for Pygame
-usage:
+
+#usage:
 
 git clone https://github.com/animaone/image-viewer-component-for-pygame
 
