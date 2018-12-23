@@ -149,21 +149,15 @@ class ImageViewer:
 
             self.screen.blit(actualSurface.surface, (actualSurface.x  , actualSurface.y))
 
+            # ============================================
+            # rendering text
+            #TODO: TUNE THIS
+            text_surface = self.main_font.render(actualSurface.description, False, [0xff, 0xff, 0xff], [0x00, 0x00, 0x00])
+            txw = text_surface.get_width()
+            txh = text_surface.get_height()
+            self.screen.blit(text_surface, [actualSurface.x, actualSurface.y, txw, txh])
+            # ============================================
 
-                # ============================================
-                # rendering text
-                #text_surface = self.main_font.render(info, False, [0xff, 0xff, 0xff], [0x00, 0x00, 0x00])
-                #txw = text_surface.get_width()
-                #txh = text_surface.get_height()
-                #self.screen.blit(text_surface, [img_init_x + (width / 2) - (txw / 2), self.scr_mid / 2 - txh, txw, txh])
-                # ============================================
-
-                #if actualSurface.type == SURFACE_TYPE_FOLDER:
-                #    sf_x += self.folderSurface.get_width()
-                #else:
-                #    pass#sf_x += self.surfaces[n].surface.get_width()
-            #else:
-            #    break
 
     def updateScreen(self):
         self.screen.fill((255, 255, 255))
