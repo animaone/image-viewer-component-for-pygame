@@ -11,14 +11,12 @@ class CBrowser:
         browser.setDir(newDir)
 
     def get_folder_image(self, folder):
-        #print("getting folder image:", folder)
         folders_imgs = os.listdir(folder)
 
         for _im in folders_imgs:
             if not os.path.isdir(os.path.join(folder, _im)):
                 return _im
 
-        #print("no image found")
         return None
 
     def __get_parent_directory__(self, dirpath):
