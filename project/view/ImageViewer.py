@@ -103,38 +103,8 @@ class ImageViewer:
                     for sf in self.surfaces:
                         sf.x += self.xpos
 
-
                     break
-        # realx = mx - self.xpos# + self.surfaces[0].get_width()
-        #
-        # # finding which image was clicked
-        # if realx > 0 and my > (self.scr_mid / 2) and my < ((3 * self.scr_mid) / 2):
-        #     in_x = 0
-        #     in_x2 = 0
-        #     for n in range(len(self.surfaces)):
-        #         info = self.surfaces[n].description
-        #         width = self.surfaces[n].surface.get_width()
-        #         in_x2 = in_x + width
-        #
-        #         if realx < in_x2 and realx > in_x:
-        #
-        #             # saving current cursor
-        #             self.cursor_history.update({self.browser.getDir(): [self.xpos, self.smooth_xpos]})
-        #
-        #             self.cbrowser.enterDir(self.browser, info)
-        #             self.load_images()
-        #
-        #             # restoring cursor history
-        #             if self.browser.getDir() in self.cursor_history:
-        #                 # last item on the stack
-        #                 self.xpos, self.smooth_xpos = self.cursor_history[self.browser.getDir()]
-        #             else:
-        #                 self.xpos = 0
-        #                 self.smooth_xpos = 0
-        #
-        #             break
-        #
-        #         in_x = in_x2
+
 
     def upDir(self):
         # saving current cursor
