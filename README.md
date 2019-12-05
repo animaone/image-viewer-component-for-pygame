@@ -12,4 +12,4 @@ put your images in the folder 'images'
 
 python Main.py
 
-
+#use the mouse wheel to scroll images
