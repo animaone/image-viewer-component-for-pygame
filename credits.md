@@ -1,3 +1,3 @@
-folder icon from: https://pixabay.com/vectors/file-folder-gray-iconset-icons-157958/
+folder icon from: https://pixabay.com/vectors/folder-directory-explorer-dossier-151584/
 
 sample image from: https://pixabay.com/photos/snow-winter-forest-nature-cold-4668099/
