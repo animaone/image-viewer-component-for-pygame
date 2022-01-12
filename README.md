@@ -19,5 +19,7 @@ python Main.py
 
 folder icon from: https://pixabay.com/vectors/folder-directory-explorer-dossier-151584/
 
-sample image from: https://pixabay.com/photos/snow-winter-forest-nature-cold-4668099/
+sample images from: 
+* https://pixabay.com/photos/snow-winter-forest-nature-cold-4668099/
+* https://pixabay.com/photos/road-forest-fall-path-trail-trees-1072821/
 
