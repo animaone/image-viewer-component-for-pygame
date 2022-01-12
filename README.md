@@ -1,4 +1,6 @@
-Image Viewer Component for Pygame
+# Image Viewer Component for Pygame
+![image](https://user-images.githubusercontent.com/31348553/149055091-3f75afeb-1f65-4a9b-b773-a210372b3b2d.png)
+
 
 # usage:
 
